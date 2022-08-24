@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Testng">
+<test name="GroupingTestcases">
+<classes>
+<class name="testNG.GroupingExample"></class>
+</classes>
+<groups>
+<run>
+<include name="moto"></include>
+<include name="vivo"></include>
+</run>
+</groups>
+</test>
+</suite>
